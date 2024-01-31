@@ -1,0 +1,10 @@
+# StoreManager
+Usage Once the GUI is running, you can use it to interact with the online shopping system. The GUI is designed using the Model-View-Controller (MVC) pattern, which separates the system's data (the Model) from its presentation (the View) and its control logic (the Controller). If logging in with Username: admin and Password: password then you will log in as a seller and be able to add products and save them to the database or load and update products. If you log in with any other Username and password then you will be logged in as a buyer and can buy available products and save said order and order details into the database.
+
+Use Case 1: When you log in with admin and password you will log in as a seller and then see the screen I have set up for the sellers. If you log in with other usernames and passwords then you will log in as a buyer, and it will show the green screen I have set up for the buyers. 
+
+Use Case 2: Seller Adds a Product for Sale: To add a product as a seller, follow these steps: 1. Login in as the admin with Username:admin and Password:password  2.	Type in product ID, product Name, price, and quantity 3.	Click save product to update it to the database 4.	Click load product if you want to edit a product already saved 5.	Success 
+
+Use Case 3: Buyer adds a product and makes an order: To add products to buy follow these steps: 1. Click add a new item 2. Type in the ProductID, click ok 3. Type in the quantity, click ok 4. Click Finish and Pay 5. Your order has been saved
+
+Design: This system is designed with the 3-tier architecture, which separates the system's presentation (the GUI), its control logic (the Controller), and its data storage and retrieval (the Model) into separate layers. The system is also designed with the Model-View-Controller (MVC) pattern, which separates the data (the Model) from its presentation (the View) and its control logic (the Controller). This allows for easier maintenance, testing, and scalability of the system.
